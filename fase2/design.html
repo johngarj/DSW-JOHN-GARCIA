@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas semánticas, Listas y Enlaces</title>   
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">INICIO</a>
+                <Li>
+                </Li>TEMAS</li>
+                <ul>
+                    <li><a href="#">Etiquetas Básicas de HTML,
+                            atributos y valores</a> </li>
+                    <li><a href="#">La interfaz de usuario,
+                            Interacción Humano Ordenador</a></li>
+                    <li><a href="">Etiquetas semánticas, Listas y
+                            enlaces</a></li>
+                    <li><a href="">Flex Box, CSS Grid</a></li>
+                    <li><a href="">Frameworks CSS,
+                            Posicionamiento Web</a></li>
+                </ul>
+                <Li>Recuros Digitales</Li>
+                <li>Aprendizaje</li>
+                <ul>
+                    <li>Fase 1- Planeación</li>
+                    <li>Fase 2 - Diseño y construcción</li>
+                </ul>
+                <li>Acerda de </li>
+                <ul>
+                    <li>Autor</li>
+                </ul>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Sitio WEB para la aplicacion de las Etiquetas semánticas, Listas y
+            enlaces
+            <p>Este Sitio se creo como estrategia de estudio virtual de las Etiquetas sematicas Listas y enlaces
+
+
+
+            </p>
+        </h2>
+    </section>
+    <article>
+        <h3>Borrador del contenido</h3><p>
+            HTML5 incorpora nuevas etiquetas para estructurar páginas web. <br> Estos elementos,
+            denominados generalmente elementos semánticos sirven para dividir un documento
+            en partes lógicas, <br> indicando el tipo de contenido que se incluye en cada parte, <br>
+            representan por tanto secciones lógicas o <br> componentes de una aplicación web o un
+            documento: header, nav, article, section, aside, footer <br>
+
+        Las nuevas etiquetas se crean para remplazar el abuso de elementos div que
+        habitualmente se utilizan con el fin de delimitar las partes de un documento. Con su
+        utilización, HTML5 pretende crear una estructura de vistas más homogeneizada y que
+        el manejo de metadata sea más adecuado. Se trata de llegar a lo que se ha dado en
+        denominar la “web semántica”, siendo la presentación de documentos mucho más
+        coherente y fácil de entender por otras personas y lo que es más importante, siendo
+        trivial de entender para una máquina. Concretamente, la tarea de un buscador será
+        mucho más fácil, pero también lo será para cualquier aplicación que “lea” páginas
+        web. 
+        
+    <h6>T Diez, MJ Domínguez, JJ Martínez, J Sáenz - Consultado el, 2012 - esvial.org</h6>
+        </p>
+        <img src="Mockup.png" alt=" EL Mockup">
+    </article>
+    <footer>
+        <h6>Coreo: jagjacobo@hotmail. <br> Skype jagjacobo <br> <label id="dateSystem"> "01/01/1900"</label></h6> 
+    </footer>
+</body>
+<script> 
+    function fechaSistema(){
+        let date = new Date();
+        document.getElementById("dateSystem").innerHTML  = date.getDate() + "/" + (date.getMonth() + 1) + "/" +  date.getFullYear();
+    }
+    fechaSistema();
+</script>
+</html>
