@@ -1,0 +1,26 @@
+header{
+background-color: rgb(15, 27, 133);
+}
+nav{background-color: rgb(5, 49, 116);
+
+}
+section{
+    float: left;
+    width: 70%;
+    background-color: darkolivegreen;
+}
+footer{background-color: rgb(141, 13, 13);
+
+}
+
+aside{
+    float: left;
+    width: 30%;
+    background-color: blue;
+
+}
+.contenedor::after{
+    content:"" ;
+    display: block;
+    clear: both;
+}
