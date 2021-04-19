@@ -1,7 +1,11 @@
 header{
 background-color: rgb(15, 27, 133);
+text-align: center;
 }
-nav{background-color: rgb(5, 49, 116);
+nav{
+    padding: 20px;
+    
+    background-color: rgb(5, 49, 116);
 
 }
 section{
@@ -9,11 +13,15 @@ section{
     width: 70%;
     background-color: darkolivegreen;
 }
-footer{background-color: rgb(141, 13, 13);
-
+footer{
+    padding: 20px;
+    grid-column: 1/4;
+            text-align: center;
+            background-color: rgb(129, 119, 119);
 }
 
 aside{
+    text-align: center;
     float: left;
     width: 30%;
     background-color: blue;
